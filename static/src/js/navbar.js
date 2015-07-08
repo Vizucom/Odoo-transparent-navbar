@@ -1,5 +1,5 @@
 $(window).scroll(function() {
-    if ($(".navbar").offset().top > 50) {
+    if ($(".navbar").offset().top > 10) {
         $('#custom-nav').addClass('affix');
         $(".navbar-fixed-top").addClass("top-nav-collapse");
     } else {

@@ -4,8 +4,8 @@
 
 		<template id="assets_frontend" inherit_id="website.assets_frontend" name="Odoo-transparent-navbar">
             <xpath expr="." position="inside">
-                <link href="/Odoo-transparent-navbar/static/src/css/navbar.css" rel="stylesheet"/>
-                <script type="text/javascript" src="/Odoo-transparent-navbar/static/src/js/navbar.js"></script>
+                <link href="/website_sticky_header/static/src/css/navbar.css" rel="stylesheet"/>
+                <script type="text/javascript" src="/website_sticky_header/static/src/js/navbar.js"></script>
             </xpath>
         </template>
 

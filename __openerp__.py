@@ -1,14 +1,15 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Transparent Navbar",
+    'name': "Website - Sticky Header",
 
-    'summary': """
-    Provide a sticky, transparent navbar for odoo""",
+    'summary': '',
 
     'description': """
-    This addon provides a transparent Navbar for Odoo.""",
-
-    'author': "Florian Fischer",
+Website - Sticky Header
+=======================
+ * Provide a sticky header for website. 
+ * Based on the 'Odoo-transparent-navbar' module by Fl0rianFischer (https://github.com/Fl0rianFischer/Odoo-transparent-navbar).""",
+    'author': "Florian Fischer & Vizucom Oy",
     'website': "http://www.bloopark.de",
 
     'category': 'Modal',
@@ -20,11 +21,5 @@
     ],
     'data': [
         'views/navbar.xml'
-    ],
-
-    'demo': [
-    ],
-
-    'tests': [
     ],
 }
