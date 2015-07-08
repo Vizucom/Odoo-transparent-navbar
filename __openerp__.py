@@ -7,7 +7,7 @@
     'description': """
 Website - Sticky Header
 =======================
- * Provide a sticky header for website. 
+ * Provide a sticky header with an easing animation for the website . 
  * Based on the 'Odoo-transparent-navbar' module by Fl0rianFischer (https://github.com/Fl0rianFischer/Odoo-transparent-navbar).""",
     'author': "Florian Fischer & Vizucom Oy",
     'website': "http://www.bloopark.de",
@@ -16,10 +16,9 @@ Website - Sticky Header
     'version': '1.0',
 
     'depends': [
-        'base',
         'website'
     ],
     'data': [
-        'views/navbar.xml'
+        'views/sticky_header.xml'
     ],
 }

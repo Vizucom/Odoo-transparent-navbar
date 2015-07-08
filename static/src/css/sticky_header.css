@@ -39,17 +39,20 @@
 	}
 
     #wrapwrap {
-        padding-top: 100px;
+        padding-top: 90px;
     }
 
 }
 
-@media screen and (max-width: 767px){
-	#wrapwrap {
-		padding-top: 100px;
-	}
 
+@media screen and (max-width: 767px){
 	.navbar-fixed-top {
 		z-index: 999;
 	}
+    	
+    #wrapwrap {
+        padding-top: 50px;
+    }	
 }
+
+

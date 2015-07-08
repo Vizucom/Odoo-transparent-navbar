@@ -2,14 +2,14 @@
 <openerp>
 	<data>
 
-		<template id="assets_frontend" inherit_id="website.assets_frontend" name="Odoo-transparent-navbar">
+		<template id="assets_frontend" inherit_id="website.assets_frontend" name="website_sticky_header">
             <xpath expr="." position="inside">
-                <link href="/website_sticky_header/static/src/css/navbar.css" rel="stylesheet"/>
-                <script type="text/javascript" src="/website_sticky_header/static/src/js/navbar.js"></script>
+                <link href="/website_sticky_header/static/src/css/sticky_header.css" rel="stylesheet"/>
+                <script type="text/javascript" src="/website_sticky_header/static/src/js/sticky_header.js"></script>
             </xpath>
         </template>
 
-		<template id="transparent navbar" inherit_id="website.layout">
+		<template id="sticky header" inherit_id="website.layout">
 			<xpath expr="//header" position="replace">
 				<header>
 					<div id="custom-nav" class="navbar navbar-default navbar-fixed-top">
