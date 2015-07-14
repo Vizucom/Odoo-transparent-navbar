@@ -9,7 +9,7 @@
             </xpath>
         </template>
 
-		<template id="sticky header" inherit_id="website.layout">
+		<template id="sticky_header" inherit_id="website.layout">
 			<xpath expr="//header" position="replace">
 				<header>
 					<div id="custom-nav" class="navbar navbar-default navbar-fixed-top">
@@ -56,6 +56,17 @@
 				<meta name="google-site-verification" content="SjmE_95P0V7hJUN8k7CZalrJkkvKfHvqswlpxOOLZEk" />
 			</xpath>
 		</template>
+		
+        <template id="show_sign_in" customize_show="True" inherit_id="website_sticky_header.sticky_header" name="Show Sign In" groups="base.group_public">
+            <xpath expr="//ul[@id='top_menu']" position="inside">
+                <li class="divider"/>
+                <li>
+                    <a t-attf-href="/web/login">
+                        <b>Sign in</b>
+                    </a>
+                </li>
+            </xpath>
+        </template>		
 
 	</data>
 </openerp>
